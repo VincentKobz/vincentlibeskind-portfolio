@@ -1,6 +1,7 @@
 {
   "name": "vincent_portfollio",
   "version": "0.1.0",
+  "homepage": "https://VincentKobz.github.io/vincentlibeskind-portfolio",
   "private": true,
   "dependencies": {
     "react": "^17.0.2",
@@ -10,9 +11,14 @@
     "scrollreveal": "^4.0.9"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
