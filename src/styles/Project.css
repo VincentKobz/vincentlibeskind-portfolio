@@ -1,0 +1,26 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    background-color: #90A8C3;
+}
+
+.project .projectTitle {
+    margin: 40px;
+    color: #F4CAE0;
+    font-family: 'RubikBlack';
+    font-size: 65px;
+}
+
+.project .projectContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 35px;
+}
+
+@media (max-width: 1000px) {
+    .project .projectContainer {
+        flex-direction: column;
+    }
+}

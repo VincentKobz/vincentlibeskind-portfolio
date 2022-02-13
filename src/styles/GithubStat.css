@@ -1,0 +1,24 @@
+.github {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.element {
+    display: flex;
+    margin-left: 40px;
+    color: white;
+    font-size: 36px;
+    align-items: center;
+}
+
+.element .info {
+    margin-left: 15px;
+}
+
+.stats {
+    font-size: 64px;
+}
+
+.element img {
+    height: 40px;
+    margin-left: 15px;
+}

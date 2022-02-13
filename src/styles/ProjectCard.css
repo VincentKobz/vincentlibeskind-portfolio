@@ -1,0 +1,118 @@
+.containerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.titleCard {
+    background-color: #F4CAE0;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 12px;
+    color: #64A6BD;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.buttonCard {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    object-fit: none;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    width: 380px;
+    height: 250px;
+    transition: 0.5s ease-in-out;
+}
+
+.buttonCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 5px solid transparent;
+    transition: 0.5s ease-in-out;
+}
+
+.buttonCard:hover .mainImg {
+    height: 0px;
+}
+
+.buttonCard .secondImg {
+    position: absolute;
+    height: 0px;
+    width: 380px;
+}
+
+.buttonCard:hover .secondImg {
+    filter: brightness(50%);
+    height: 250px;
+    opacity: 0.8;
+}
+
+.buttonCard:hover {
+    transform: scale(1.05);
+}
+
+.buttonCard .buttonCardText, .buttonCardTextPlus {
+    position: absolute;
+    color: white;
+    transition: 0.5s;
+}
+
+.buttonCard .buttonCardText {
+    font-family: "RubikBlack";
+    font-size: 30px;
+    margin-bottom: 45%;
+    opacity: 0;
+}
+
+.buttonCard .buttonCardTextPlus {
+    margin-bottom: 15%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 26px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.buttonCard:hover .buttonCardText, .buttonCard:hover .buttonCardTextPlus {
+    opacity: 1;
+    visibility: visible;
+}
+
+.technoCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+    .buttonCard {
+        width: 300px;
+        height: 200px;
+    }
+
+    .buttonCard:hover .secondImg {
+        height: 200px;
+    }
+
+    .buttonCard .secondImg {
+        width: 300px;
+    }
+
+    .buttonCard .buttonCardTextPlus {
+        margin-bottom: 10%;
+        font-size: 22px;
+    }
+
+    .buttonCard .buttonCardText {
+        font-size: 25px;
+    }
+}

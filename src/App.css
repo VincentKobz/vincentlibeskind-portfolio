@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik"),
+   url("./assets/fonts/Rubik.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RubikBlack";
+  src: local("Rubik"),
+   url("./assets/fonts/Rubik-Black.ttf") format("truetype");
+}
+
+*, *::before, *::after {
+  font-family: "Rubik";
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
