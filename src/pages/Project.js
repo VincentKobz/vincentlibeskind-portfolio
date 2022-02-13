@@ -42,7 +42,7 @@ function Project() {
             img1: Esu1,
             img2: Esu2,
             title: "SCHOOL PROJECT",
-            info: "Develop a multiplayer video games with Unity.",
+            info: "Develop a multiplayer video game with Unity.",
             technoList: [ { techno: Csharp }, {techno: Gitkraken}, {techno: Unity} ]
         },
         {
@@ -50,7 +50,7 @@ function Project() {
             img1: Ocr1,
             img2: Ocr2,
             title: "SCHOOL PROJECT",
-            info: "Develop an Optical Character Recognition with neural network in C.",
+            info: "Develop an Optical Character Recognition with a neural network in C.",
             technoList: [ { techno: C }, {techno: Git} ]
         },
         {
@@ -74,7 +74,7 @@ function Project() {
             img1: Ign1,
             img2: Ign2,
             title: "GITHUB PROJECT",
-            info: "Tools for simulate and compare crypto trading bot with different strategies.",
+            info: "Tools to simulate and compare crypto trading bots with different strategies.",
             technoList: [ { techno: Python }, {techno: Svelte} ]
         },
     ]
