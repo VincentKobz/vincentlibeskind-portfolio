@@ -57,7 +57,7 @@ function GithubStat() {
     sr.reveal('.github .projectTitle', {});
     sr.reveal('.github .element', {});
     getGithubStat();
-    setTimeout(() => { getGithubStatUser(); }, 100);
+    setTimeout(() => { getGithubStatUser(); }, 300);
   }, []);
     
   return (

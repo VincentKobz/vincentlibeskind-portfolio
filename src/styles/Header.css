@@ -87,4 +87,10 @@
         padding: 10px;
         padding-bottom: 30px;
     }
+
+    .title .infoMe {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 32px;
+    }
 }

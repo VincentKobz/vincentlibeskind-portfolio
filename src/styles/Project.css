@@ -23,4 +23,12 @@
     .project .projectContainer {
         flex-direction: column;
     }
+
+    .project .projectContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 35px;
+    }
 }
