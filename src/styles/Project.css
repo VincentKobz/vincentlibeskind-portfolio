@@ -19,6 +19,38 @@
     margin: 35px;
 }
 
+.sphere1 {
+    position: absolute;
+    left: 8%;
+    height: 300px;
+    top: 120%;
+    opacity: 0.8;
+}
+
+.sphere2 {
+    position: absolute;
+    right: 8%;
+    height: 300px;
+    top: 200%;
+    opacity: 0.8;
+}
+
+.sphere3 {
+    position: absolute;
+    left: 20%;
+    height: 300px;
+    top: 250%;
+    opacity: 0.8;
+}
+
+.cube {
+    position: absolute;
+    left: 5%;
+    height: 400px;
+    top: 220%;
+    opacity: 0.8;
+}
+
 @media (max-width: 1000px) {
     .project .projectContainer {
         flex-direction: column;

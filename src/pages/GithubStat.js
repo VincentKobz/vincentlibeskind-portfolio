@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-import Star from '../assets/stars.svg';
+import Star from '../assets/star.png';
 import ScrollReveal from 'scrollreveal';
 
 import '../styles/GithubStat.css'
@@ -63,17 +63,19 @@ function GithubStat() {
   return (
     <div className='github'>
       <div className='projectTitle'>Github Stats.</div>
-      <div className='element'>
-        <div className='stats'>{values.nbRepo}</div>
-        <div className='info'>repositories</div>
-      </div>
-      <div className='element'>
-        <div className='stats'>{values.stars}</div>
-        <img src={Star} alt='icon' />
-      </div>
-      <div className='element'>
-        <div className='stats'>{values.nbFollower}</div>
-        <div className='info'>followers</div>
+      <div className='statContainer'>
+        <div className='element'>
+          <div className='stats'>{values.nbRepo}</div>
+          <div className='info'>repositories</div>
+        </div>
+        <div className='element'>
+          <div className='stats'>{values.stars}</div>
+          <img className='infoStar' src={Star} alt='icon' />
+        </div>
+        <div className='element'>
+          <div className='stats'>{values.nbFollower}</div>
+          <div className='info'>followers</div>
+        </div>
       </div>
     </div>
   )
