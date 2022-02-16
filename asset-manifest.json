@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vincentlibeskind-portfolio/static/css/main.39544f30.css",
-    "main.js": "/vincentlibeskind-portfolio/static/js/main.7238ba72.js",
+    "main.css": "/vincentlibeskind-portfolio/static/css/main.9654e78f.css",
+    "main.js": "/vincentlibeskind-portfolio/static/js/main.64b8e0f6.js",
     "static/media/Ign2.bmp": "/vincentlibeskind-portfolio/static/media/Ign2.51180152479d1f9d522a.bmp",
     "static/media/esu1.png": "/vincentlibeskind-portfolio/static/media/esu1.3396f831d250fb0998bf.png",
     "static/media/resume_Vincent_Libeskind.pdf": "/vincentlibeskind-portfolio/static/media/resume_Vincent_Libeskind.9244724fb8c0d8c87075.pdf",
@@ -25,13 +25,12 @@
     "index.html": "/vincentlibeskind-portfolio/index.html",
     "static/media/linkedin.svg": "/vincentlibeskind-portfolio/static/media/linkedin.eb48042bf4363f4fa3ecf89a943940f3.svg",
     "static/media/gmail.svg": "/vincentlibeskind-portfolio/static/media/gmail.12fd482d8f5a9a2f4555e7ea738352fd.svg",
-    "static/media/stars.svg": "/vincentlibeskind-portfolio/static/media/stars.bb24f439ca1a3fe1b436e062d79fbd30.svg",
     "static/media/download.svg": "/vincentlibeskind-portfolio/static/media/download.7098c33df238bed27e98b2efc6772e5c.svg",
-    "main.39544f30.css.map": "/vincentlibeskind-portfolio/static/css/main.39544f30.css.map",
-    "main.7238ba72.js.map": "/vincentlibeskind-portfolio/static/js/main.7238ba72.js.map"
+    "main.9654e78f.css.map": "/vincentlibeskind-portfolio/static/css/main.9654e78f.css.map",
+    "main.64b8e0f6.js.map": "/vincentlibeskind-portfolio/static/js/main.64b8e0f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.39544f30.css",
-    "static/js/main.7238ba72.js"
+    "static/css/main.9654e78f.css",
+    "static/js/main.64b8e0f6.js"
   ]
 }
