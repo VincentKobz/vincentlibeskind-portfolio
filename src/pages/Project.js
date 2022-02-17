@@ -1,4 +1,4 @@
-import React, { Suspense, useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
 
 import ProjectCard from '../components/ProjectCard';
@@ -24,10 +24,6 @@ import Svelte from '../assets/techno/svelte.svg'
 import '../styles/Project.css'
 
 function Project() {
-
-    const [offsetY, setOffsetY] = useState(0);
-    const handleScroll = () => setOffsetY(window.pageYOffset);
-
     useEffect(() => {
         const sr = ScrollReveal({
             reset: true,
@@ -38,9 +34,6 @@ function Project() {
     
         sr.reveal('.projectTitle', {});
         sr.reveal('.projectContainer .elementProject', {});
-
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
       }, []);
 
     const projectCards = [

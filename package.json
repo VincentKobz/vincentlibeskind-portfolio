@@ -1,7 +1,7 @@
 {
   "name": "vincent_portfollio",
   "version": "0.1.0",
-  "homepage": "https://VincentKobz.github.io/vincentlibeskind-portfolio",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@chevrotain/utils": "^10.1.1",
