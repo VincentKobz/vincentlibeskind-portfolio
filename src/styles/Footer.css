@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #64A6BD;
+}
+
+.footer .bar {
+    width: 50%;
+    border: 2px solid #f4cae0bd;
+    border-radius: 5px;
+}
+
+.footer .vincent {
+    display: flex;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+.footer h3 {
+    color: white;
+    font-family: 'Rubik';
+}
+
+.footer img {
+    height: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.footer img:hover {
+    height: 50px;
+    transform: scale(1.1);
+    filter: brightness(110%);
+}
+
+.footer .titleFooter {
+    text-align: center;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.568);
+}

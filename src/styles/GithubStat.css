@@ -24,7 +24,6 @@
     transition: 0.5s ease-in-out;
     margin: 15px;
     box-shadow: 2px 5px 5px grey;
-    animation: element 6s linear infinite;
 }
 
 .stats {

@@ -4,14 +4,14 @@ import ScrollReveal from 'scrollreveal';
 import ProjectCard from '../components/ProjectCard';
 import GithubStat from './GithubStat';
 
-import Ign1 from '../assets/project/Ign1.png';
-import Ign2 from '../assets/project/Ign2.bmp';
-import Esu1 from '../assets/project/esu1.png'
-import Esu2 from '../assets/project/esu2.png'
-import Shell1 from '../assets/project/shell1.png'
-import Shell2 from '../assets/project/shell2.png'
-import Ocr1 from '../assets/project/ocr1.png'
-import Ocr2 from '../assets/project/ocr2.png'
+import Ign1 from '../assets/project/ign1.webp';
+import Ign2 from '../assets/project/ign2.webp';
+import Esu1 from '../assets/project/esu1.webp'
+import Esu2 from '../assets/project/esu2.webp'
+import Shell1 from '../assets/project/shell1.webp'
+import Shell2 from '../assets/project/shell2.webp'
+import Ocr1 from '../assets/project/ocr1.webp'
+import Ocr2 from '../assets/project/ocr2.webp'
 import C from '../assets/techno/c.svg';
 import Csharp from '../assets/techno/csharp.svg';
 import Git from '../assets/techno/git.png';

@@ -55,7 +55,7 @@ function GithubStat() {
     });
 
     sr.reveal('.github .projectTitle', {});
-    sr.reveal('.github .element', {});
+    sr.reveal('.github .elementReveal', {});
     getGithubStat();
     setTimeout(() => { getGithubStatUser(); }, 300);
   }, []);
@@ -64,17 +64,23 @@ function GithubStat() {
     <div className='github'>
       <div className='projectTitle'>Github Stats.</div>
       <div className='statContainer'>
-        <div className='element'>
-          <div className='stats'>{values.nbRepo}</div>
-          <div className='info'>repositories</div>
+        <div className='elementReveal'>
+          <div className='element'>
+            <div className='stats'>{values.nbRepo}</div>
+            <div className='info'>repositories</div>
+          </div>
         </div>
-        <div className='element'>
-          <div className='stats'>{values.stars}</div>
-          <img className='infoStar' src={Star} alt='icon' />
+        <div className='elementReveal'>
+          <div className='element'>
+            <div className='stats'>{values.stars}</div>
+            <img className='infoStar' src={Star} alt='icon' />
+          </div>
         </div>
-        <div className='element'>
-          <div className='stats'>{values.nbFollower}</div>
-          <div className='info'>followers</div>
+        <div className='elementReveal'>
+          <div className='element'>
+            <div className='stats'>{values.nbFollower}</div>
+            <div className='info'>followers</div>
+          </div>
         </div>
       </div>
     </div>
