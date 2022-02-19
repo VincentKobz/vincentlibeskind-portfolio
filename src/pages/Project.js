@@ -12,6 +12,8 @@ import Shell1 from '../assets/project/shell1.webp'
 import Shell2 from '../assets/project/shell2.webp'
 import Ocr1 from '../assets/project/ocr1.webp'
 import Ocr2 from '../assets/project/ocr2.webp'
+import Trading1 from '../assets/project/tradingtools1.webp'
+import Trading2 from '../assets/project/tradingtools2.webp'
 import C from '../assets/techno/c.svg';
 import Csharp from '../assets/techno/csharp.svg';
 import Git from '../assets/techno/git.png';
@@ -43,7 +45,8 @@ function Project() {
             img2: Esu2,
             title: "SCHOOL PROJECT",
             info: "Develop a multiplayer video game with Unity.",
-            technoList: [ { techno: Csharp }, {techno: Gitkraken}, {techno: Unity} ]
+            technoList: [ { techno: Csharp }, {techno: Gitkraken}, {techno: Unity} ],
+            link: 'https://github.com/nathan-rabet/ESU'
         },
         {
             project: "OCR",
@@ -51,7 +54,8 @@ function Project() {
             img2: Ocr2,
             title: "SCHOOL PROJECT",
             info: "Develop an Optical Character Recognition with a neural network in C.",
-            technoList: [ { techno: C }, {techno: Git} ]
+            technoList: [ { techno: C }, {techno: Git} ],
+            link: null
         },
         {
             project: "Topographic map 3D",
@@ -59,7 +63,8 @@ function Project() {
             img2: Ign2,
             title: "SCHOOL PROJECT",
             info: "Develop a software that converts a 2d topographic map into 3D with OpenGl.",
-            technoList: [ { techno: C }, {techno: Git}, {techno: Opengl} ]
+            technoList: [ { techno: C }, {techno: Git}, {techno: Opengl} ],
+            link: null
         },
         {
             project: "Shell POSIX",
@@ -67,15 +72,17 @@ function Project() {
             img2: Shell2,
             title: "SCHOOL PROJECT",
             info: "Develop a POSIX shell from scratch in C.",
-            technoList: [ { techno: C }, {techno: Git} ]
+            technoList: [ { techno: C }, {techno: Git} ],
+            link: null
         },
         {
             project: "Crypto Trade Tools",
-            img1: Ign1,
-            img2: Ign2,
+            img1: Trading1,
+            img2: Trading2,
             title: "GITHUB PROJECT",
             info: "Tools to simulate and compare crypto trading bots with different strategies.",
-            technoList: [ { techno: Python }, {techno: Svelte} ]
+            technoList: [ { techno: Python }, {techno: Svelte} ],
+            link: 'https://github.com/VincentKobz/crypto-trade-tools'
         },
     ]
 
@@ -83,19 +90,19 @@ function Project() {
         <div className='projectTitle'>Project.</div>
         <div className='projectContainer'>
             <div className='elementProject'>
-                <ProjectCard project={projectCards[0].project} img1={projectCards[0].img1} img2={projectCards[0].img2} title={projectCards[0].title} info={projectCards[0].info} technoList={projectCards[0].technoList} />
+                <ProjectCard project={projectCards[0].project} img1={projectCards[0].img1} img2={projectCards[0].img2} title={projectCards[0].title} info={projectCards[0].info} technoList={projectCards[0].technoList} link={projectCards[0].link} />
             </div>
             <div className='elementProject'>
-                <ProjectCard project={projectCards[1].project} img1={projectCards[1].img1} img2={projectCards[1].img2} title={projectCards[1].title} info={projectCards[1].info} technoList={projectCards[1].technoList} />
+                <ProjectCard project={projectCards[1].project} img1={projectCards[1].img1} img2={projectCards[1].img2} title={projectCards[1].title} info={projectCards[1].info} technoList={projectCards[1].technoList} link={projectCards[1].link} />
             </div>
             <div className='elementProject'>
-                <ProjectCard project={projectCards[2].project} img1={projectCards[2].img1} img2={projectCards[2].img2} title={projectCards[2].title} info={projectCards[2].info} technoList={projectCards[2].technoList} />
+                <ProjectCard project={projectCards[2].project} img1={projectCards[2].img1} img2={projectCards[2].img2} title={projectCards[2].title} info={projectCards[2].info} technoList={projectCards[2].technoList} link={projectCards[2].link} />
             </div>
             <div className='elementProject'>
-                <ProjectCard project={projectCards[3].project} img1={projectCards[3].img1} img2={projectCards[3].img2} title={projectCards[3].title} info={projectCards[3].info} technoList={projectCards[3].technoList} />
+                <ProjectCard project={projectCards[3].project} img1={projectCards[3].img1} img2={projectCards[3].img2} title={projectCards[3].title} info={projectCards[3].info} technoList={projectCards[3].technoList} link={projectCards[3].link} />
             </div>
             <div className='elementProject'>
-                <ProjectCard project={projectCards[4].project} img1={projectCards[4].img1} img2={projectCards[4].img2} title={projectCards[4].title} info={projectCards[4].info} technoList={projectCards[4].technoList} />
+                <ProjectCard project={projectCards[4].project} img1={projectCards[4].img1} img2={projectCards[4].img2} title={projectCards[4].title} info={projectCards[4].info} technoList={projectCards[4].technoList} link={projectCards[4].link} />
             </div>
         </div>
         <GithubStat />
