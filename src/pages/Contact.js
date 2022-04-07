@@ -29,7 +29,10 @@ function Contact() {
       </div>
       <div className='contactInfo'>
         Vincent Libeskind,
-        computer science student at EPITA, Paris.
+        <br />
+        French student in my four year of computer science at EPITA.
+        <br />
+        <div className='infoInternship'> <br /> I am looking for an internship abroad in the IT sector from September 2022 for a duration of 4 / 5 months.</div>
       </div>
       <div className='contactButton'>
         <Button title="Github" src={Github} link='https://github.com/VincentKobz' />

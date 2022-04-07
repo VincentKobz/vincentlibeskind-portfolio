@@ -59,10 +59,19 @@
     transform: scale(1.05);
 }
 
-.buttonCard .buttonCardText, .buttonCardTextPlus {
+.buttonCard .buttonCardText, .buttonCardTextPlus, .githubIco{
     position: absolute;
     color: white;
     transition: 0.5s;
+}
+
+.buttonCard .githubIco {
+    width: 42px;
+    height: 42px;
+    bottom: 11px;
+    left: 11px;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .buttonCard .buttonCardText {
@@ -73,7 +82,7 @@
 }
 
 .buttonCard .buttonCardTextPlus {
-    margin-bottom: 10%;
+    top: 40%;
     margin-left: 10px;
     margin-right: 10px;
     font-size: 26px;
@@ -83,7 +92,7 @@
     visibility: hidden;
 }
 
-.buttonCard:hover .buttonCardText, .buttonCard:hover .buttonCardTextPlus {
+.buttonCard:hover .buttonCardText, .buttonCard:hover .buttonCardTextPlus, .buttonCard:hover .githubIco{
     opacity: 1;
     visibility: visible;
 }
@@ -105,6 +114,13 @@
         height: 200px;
     }
 
+    .buttonCard .githubIco {
+        width: 38px;
+        height: 38px;
+        bottom: 11px;
+        left: 11px;
+    }
+
     .buttonCard:hover .secondImg {
         height: 200px;
     }
@@ -114,7 +130,7 @@
     }
 
     .buttonCard .buttonCardTextPlus {
-        margin-bottom: 8%;
+        top: 40%;
         font-size: 22px;
     }
 
@@ -127,6 +143,13 @@
     .containerCard {
         margin-left: 5px;
         margin-right: 5px;
+    }
+
+    .buttonCard .githubIco {
+        width: 35px;
+        height: 35px;
+        bottom: 11px;
+        left: 11px;
     }
 
     .buttonCard {
@@ -143,7 +166,7 @@
     }
 
     .buttonCard .buttonCardTextPlus {
-        margin-bottom: 8%;
+        top: 40%;
         font-size: 18px;
     }
 

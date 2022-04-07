@@ -13,6 +13,7 @@ function ProjectCard(props) {
           <img className="secondImg" src={props.img2} alt="icon" />
           <div className='buttonCardText'>{props.title}</div>
           <div className='buttonCardTextPlus'>{props.info}</div>
+          <img className='githubIco' src={props.github} alt="" />
       </a>
       <div className='technoCard'>
           {technoCards}
