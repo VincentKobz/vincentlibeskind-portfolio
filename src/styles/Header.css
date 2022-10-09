@@ -59,6 +59,33 @@
     z-index: 1;
 }
 
+.title .infoMeMain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.epitaLogo {
+    z-index: 2;
+}
+
+.epitaLogo img {
+    cursor: pointer;
+    height: 65px;
+    margin-top: 55px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.2s ease-in-out;
+    z-index: 2;
+}
+
+.epitaLogo img:hover {
+    transform: scale(1.1);
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
 .computer {
     position: absolute;
     width: 30%;
@@ -92,5 +119,21 @@
         padding-left: 10px;
         padding-right: 10px;
         font-size: 32px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .title .infoMeMain {
+        flex-direction: column;
+    }
+
+    .epitaLogo img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .title .infoMe {
+        padding-top: 0px;
     }
 }

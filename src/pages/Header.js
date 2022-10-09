@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Link } from "react-scroll"
 import ScrollReveal from 'scrollreveal';
 
-import Computer from '../assets/computer.svg'
+import Computer from '../assets/programming.svg'
 import Currency from '../assets/currency.svg'
+import LogoEpita from '../assets/epita.png'
 
 import '../styles/Header.css'
 
@@ -42,7 +43,15 @@ function Header() {
               style={{ transform: `translateY(-${offsetY * 0.2}px)`}} 
             />
             <div className='mainTitle'>Hi, I'm Vincent Libeskind.</div>
-            <div className='infoMe'>Computer science student at EPITA, Paris.</div>
+            <div className='infoMeMain'>
+              <div className='infoMe'>Computer science student at </div>
+              <div className='epitaLogo'>
+                <a href="http://www.epita.fr" target="_blank" >
+                  <img src={LogoEpita} alt='icon' />
+                </a>
+              </div>
+              <div className='infoMe'>Paris.</div>
+            </div>
         </div>
       </div>
   );
