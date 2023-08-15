@@ -5,7 +5,7 @@ import Github from '../assets/techno/github.svg'
 import Linkedin from '../assets/techno/linkedin.svg'
 import Gmail from '../assets/techno/gmail.svg'
 import Download from '../assets/techno/download.svg'
-import Resume from '../assets/resume/resume_Vincent_Libeskind.pdf'
+import Resume from '../assets/resume/resume_vincent_libeskind.pdf'
 
 import '../styles/Contact.css'
 
