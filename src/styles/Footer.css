@@ -3,25 +3,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #64A6BD;
+    background-color: #0D1B2A;
 }
 
 .footer .bar {
     width: 50%;
-    border: 2px solid #f4cae0bd;
+    border: 2px solid #E0E1DD;
     border-radius: 5px;
 }
 
 .footer .vincent {
     display: flex;
-    margin: 10px;
-    margin-bottom: 0px;
+    margin: 10px 10px 0;
     align-items: center;
+}
+
+.footer .vincent img {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 6px;
 }
 
 .footer h3 {
     color: white;
-    font-family: 'Rubik';
+    font-family: 'LeagueSpartan', serif;
 }
 
 .footer img {

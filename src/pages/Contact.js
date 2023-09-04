@@ -25,14 +25,10 @@ function Contact() {
 
   return <div className='contact' id='contact'>
       <div className='contactTitle'>
-          Contact.
+          CONTACT
       </div>
       <div className='contactInfo'>
-        Vincent Libeskind,
-        <br />
-        French student in my four year of computer science at EPITA.
-        <br />
-        <div className='infoInternship'> <br /> </div>
+          Currently in my final year of engineering, specializing in Linux, real-time and embedded systems, I'm looking for a 5-month pre-employment internship starting in February 2024. I'm looking for a position as an embedded or Linux systems engineer.
       </div>
       <div className='contactButton'>
         <Button title="Github" src={Github} link='https://github.com/VincentKobz' />

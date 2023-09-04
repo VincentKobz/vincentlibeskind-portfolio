@@ -7,17 +7,16 @@ import '../styles/GithubStat.css'
 
 function GithubStat() {
   const [values, setValues] = useState({
-    stars: null,
+    stars: 0,
     nbRepo: 0,
-    nbFollower: 0,
-    mainLaguage: null
+    nbFollower: 0
   });
 
-  var totalStars = 0;
-  var totalRepo = 0;
+  let totalStars = 0;
+  let totalRepo = 0;
 
-  const getGithubStat = () => {
-    fetch('https://api.github.com/users/VincentKobz/repos?per_page=100')
+  const getGithubStat = async () => {
+    await fetch('https://api.github.com/users/VincentKobz/repos?per_page=100')
     .then((response) => {
       response.json().then(data => {
         totalStars = data.reduce((prev, curr) => {
@@ -34,11 +33,10 @@ function GithubStat() {
     })
   };
 
-  const getGithubStatUser = () => {
-    fetch('https://api.github.com/users/VincentKobz')
+  const getGithubStatUser = async () => {
+    await fetch('https://api.github.com/users/VincentKobz')
     .then((response) => {
       response.json().then(data => {
-
         setValues({ stars: totalStars, nbRepo: totalRepo, nbFollower: data.followers });
       })
     }).catch((response) => {
@@ -56,13 +54,14 @@ function GithubStat() {
 
     sr.reveal('.github .projectTitle', {});
     sr.reveal('.github .elementReveal', {});
-    getGithubStat();
-    setTimeout(() => { getGithubStatUser(); }, 300);
+    getGithubStat().then(() => {
+      getGithubStatUser();
+    });
   }, []);
     
   return (
     <div className='github'>
-      <div className='projectTitle'>Github Stats.</div>
+      <div className='projectTitle'>GITHUB STATS</div>
       <div className='statContainer'>
         <div className='elementReveal'>
           <div className='element'>

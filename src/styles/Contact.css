@@ -1,13 +1,14 @@
 .contact {
     display: flex;
     flex-direction: column;
-    background-color: #64A6BD;
+    background-color: #0D1B2A;
 }
 
 .contact .contactTitle {
     margin: 40px;
-    color: #F4CAE0;
-    font-family: 'RubikBlack';
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'LeagueSpartanBold', serif;
+    text-align: center;
     font-size: 65px;
 }
 
@@ -21,10 +22,6 @@
 .contact .contactButton {
     margin-top: 40px;
     margin-bottom: 40px;
-}
-
-.contact .infoInternship {
-    font-size: 24px;
 }
 
 @media (max-width: 400px) {

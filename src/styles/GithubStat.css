@@ -12,35 +12,34 @@
 .element {
     cursor: pointer;
     display: flex;
-    margin-left: 40px;
-    color: #64A6BD;
+    color: #415A77;
     font-size: 36px;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: #E0E1DD;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     transition: 0.5s ease-in-out;
     margin: 15px;
-    box-shadow: 2px 5px 5px grey;
 }
 
 .stats {
+    margin-top: 10px;
     font-size: 64px;
 }
 
 .element .info {
     font-size: 32px;
     transform: scale(0);
-    max-width: 0px;
+    max-width: 0;
     transition: 0.5s ease-in-out;
 }
 
 .element .infoStar {
     height: 40px;
     transform: scale(0);
-    width: 0%;
+    width: 0;
     transition: 0.5s ease-in-out;
 }
 
