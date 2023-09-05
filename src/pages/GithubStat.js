@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-import Star from '../assets/star.png';
+import Star from '../assets/star.svg';
 import ScrollReveal from 'scrollreveal';
 
 import '../styles/GithubStat.css'
