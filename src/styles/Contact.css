@@ -36,6 +36,7 @@
     color: #E0E1DD;
     font-size: 35px;
     display: flex;
+    align-items: center;
     text-decoration: none;
     margin-bottom: 40px;
     transition: 0.025s ease-in-out;
@@ -43,7 +44,7 @@
 }
 
 .contact .resume img {
-    height: 35px;
+    height: 45px;
     margin-left: 8px;
 }
 
