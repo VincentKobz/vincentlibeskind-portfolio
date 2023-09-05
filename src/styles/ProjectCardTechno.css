@@ -1,9 +1,8 @@
 .technoCard img{
-    cursor: pointer;
     width: 48px;
     margin-left: 6px;
     margin-right: 6px;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .technoCard img:hover{

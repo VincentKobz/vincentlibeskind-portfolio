@@ -7,13 +7,12 @@
 }
 
 .titleCard {
-    background-color: #F4CAE0;
-    padding-left: 14px;
-    padding-right: 14px;
-    border-radius:7px;
-    color: #64A6BD;
+    background-color: #0D1B2A;
+    padding: 10px 14px 2px;
+    color: white;
     font-size: 32px;
     margin-bottom: 30px;
+    border-radius: 3px;
 }
 
 .buttonCard {
@@ -27,39 +26,39 @@
     background-color: transparent;
     width: 380px;
     height: 250px;
-    transition: 0.5s ease-in-out;
+    transition: 0.25s ease-in-out;
 }
 
 .buttonCard img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 12px;
     border: 5px solid transparent;
-    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
 }
 
 .buttonCard:hover .mainImg {
-    height: 0px;
+    opacity: 0.0;
 }
 
 .buttonCard .secondImg {
     position: absolute;
-    height: 0px;
+    height: 250px;
+    opacity: 0.0;
     width: 380px;
 }
 
 .buttonCard:hover .secondImg {
-    filter: brightness(50%);
-    height: 250px;
     opacity: 0.8;
+    filter: brightness(50%);
 }
 
 .buttonCard:hover {
     transform: scale(1.05);
 }
 
-.buttonCard .buttonCardText, .buttonCardTextPlus, .githubIco{
+.buttonCard .buttonCardText, .buttonCardTextPlus, .githubIco {
     position: absolute;
     color: white;
     transition: 0.5s;
@@ -75,7 +74,7 @@
 }
 
 .buttonCard .buttonCardText {
-    font-family: "RubikBlack";
+    font-family: "LeagueSpartanBold", serif;
     font-size: 30px;
     margin-bottom: 45%;
     opacity: 0;
@@ -92,7 +91,8 @@
     visibility: hidden;
 }
 
-.buttonCard:hover .buttonCardText, .buttonCard:hover .buttonCardTextPlus, .buttonCard:hover .githubIco{
+.buttonCard:hover .buttonCardText, .buttonCard:hover .buttonCardTextPlus, .buttonCard:hover .githubIco {
+    height: auto;
     opacity: 1;
     visibility: visible;
 }
@@ -122,10 +122,12 @@
     }
 
     .buttonCard:hover .secondImg {
-        height: 200px;
+        opacity: 0.8;
+        filter: brightness(50%);
     }
 
     .buttonCard .secondImg {
+        height: 200px;
         width: 300px;
     }
 
@@ -158,11 +160,13 @@
     }
 
     .buttonCard:hover .secondImg {
-        height: 160px;
+        opacity: 0.8;
+        filter: brightness(50%);
     }
 
     .buttonCard .secondImg {
         width: 250px;
+        height: 160px;
     }
 
     .buttonCard .buttonCardTextPlus {

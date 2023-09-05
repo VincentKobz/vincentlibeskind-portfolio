@@ -1,14 +1,15 @@
 .project {
     display: flex;
     flex-direction: column;
-    background-color: #90A8C3;
+    background-color: #415A77;
 }
 
 .project .projectTitle {
     margin: 40px;
-    color: #F4CAE0;
-    font-family: 'RubikBlack';
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'LeagueSpartanBold', serif;
     font-size: 65px;
+    text-align: center;
 }
 
 .project .projectContainer {

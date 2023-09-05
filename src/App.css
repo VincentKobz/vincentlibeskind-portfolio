@@ -1,17 +1,17 @@
 @font-face {
-  font-family: "Rubik";
-  src: local("Rubik"),
-   url("./assets/fonts/Rubik.ttf") format("truetype");
+  font-family: "LeagueSpartan";
+  src: local("LeagueSpartan"),
+   url("./assets/fonts/LeagueSpartan-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "RubikBlack";
-  src: local("Rubik"),
-   url("./assets/fonts/Rubik-Black.ttf") format("truetype");
+  font-family: "LeagueSpartanBold";
+  src: local("LeagSpartanBold"),
+   url("./assets/fonts/LeagueSpartan-Bold.ttf") format("truetype");
 }
 
 *, *::before, *::after {
-  font-family: "Rubik";
+  font-family: "LeagueSpartan";
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;

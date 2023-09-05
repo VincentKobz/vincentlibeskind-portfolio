@@ -1,6 +1,7 @@
 import React from 'react'
 
-import Logo from '../assets/logo.ico'
+import Github from '../assets/techno/github.svg'
+import Heart from '../assets/heart.svg'
 
 import '../styles/Footer.css'
 
@@ -9,11 +10,8 @@ function Footer() {
     <div className='footer'>
         <div className='bar' />
         <div className='vincent'>
-            <h3>Made By Vincent</h3>
-            <img  src={Logo} alt='icon'/>
-        </div>
-        <div className='titleFooter'>
-        Icon by iconmonstr.com, svgrepo.com and star icon by Andrean Prabowo on flaticon.com.
+            <h3>Made By Vincent with</h3>
+            <img  src={Heart} alt='icon'/>
         </div>
     </div>
   )

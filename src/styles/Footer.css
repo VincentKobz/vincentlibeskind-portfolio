@@ -3,25 +3,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #64A6BD;
+    background-color: #0D1B2A;
 }
 
 .footer .bar {
-    width: 50%;
-    border: 2px solid #f4cae0bd;
-    border-radius: 5px;
+    width: 40%;
+    border: 2px solid #778DA9;
+    border-radius: 10px;
 }
 
 .footer .vincent {
     display: flex;
-    margin: 10px;
-    margin-bottom: 0px;
+    margin: 10px 10px 0;
     align-items: center;
 }
 
+.footer .vincent img {
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+
 .footer h3 {
-    color: white;
-    font-family: 'Rubik';
+    color: #E0E1DD;
+    font-family: 'LeagueSpartan', serif;
 }
 
 .footer img {
@@ -33,10 +38,4 @@
     height: 50px;
     transform: scale(1.1);
     filter: brightness(110%);
-}
-
-.footer .titleFooter {
-    text-align: center;
-    margin: 10px;
-    color: rgba(255, 255, 255, 0.568);
 }
