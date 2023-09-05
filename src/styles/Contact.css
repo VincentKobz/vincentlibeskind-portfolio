@@ -34,7 +34,7 @@
     font-family: 'LeagueSpartan', serif;
     text-align: center;
     color: #E0E1DD;
-    font-size: 25px;
+    font-size: 35px;
     display: flex;
     text-decoration: none;
     margin-bottom: 40px;
@@ -43,7 +43,7 @@
 }
 
 .contact .resume img {
-    height: 25px;
+    height: 35px;
     margin-left: 8px;
 }
 
