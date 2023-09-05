@@ -1,6 +1,7 @@
 .contact {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #0D1B2A;
 }
 
@@ -15,13 +16,56 @@
 .contact .contactInfo {
     margin-left: 40px;
     margin-right: 40px;
-    color: white;
+    color: #E0E1DD;
     font-size: 36px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 26pt;
 }
 
 .contact .contactButton {
     margin-top: 40px;
     margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact .resume a {
+    font-family: 'LeagueSpartan', serif;
+    text-align: center;
+    color: #E0E1DD;
+    font-size: 25px;
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 40px;
+    transition: 0.025s ease-in-out;
+    filter: brightness(80%);
+}
+
+.contact .resume img {
+    height: 25px;
+    margin-left: 8px;
+}
+
+.contact .resume a:hover {
+    transform: scale(1.05);
+    filter: brightness(110%);
+}
+
+.contact .contactButton a {
+    margin-right: 14px;
+    margin-left: 14px;
+    transition: 0.025s ease-in-out;
+    filter: brightness(80%);
+}
+
+.contact .contactButton img {
+    height: 40px;
+}
+
+.contact .contactButton a:hover {
+    transform: scale(1.1);
+    filter: brightness(110%);
 }
 
 @media (max-width: 400px) {

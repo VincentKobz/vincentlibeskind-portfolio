@@ -10,7 +10,7 @@ import '../styles/Project.css'
 function Project() {
     useEffect(() => {
         const sr = ScrollReveal({
-            reset: true,
+            reset: false,
             scale: 0.9,
             opacity: 0.6,
             duration: 800

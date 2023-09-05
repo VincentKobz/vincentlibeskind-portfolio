@@ -7,9 +7,9 @@
 }
 
 .footer .bar {
-    width: 50%;
-    border: 2px solid #E0E1DD;
-    border-radius: 5px;
+    width: 40%;
+    border: 2px solid #778DA9;
+    border-radius: 10px;
 }
 
 .footer .vincent {
@@ -19,13 +19,13 @@
 }
 
 .footer .vincent img {
-    padding-left: 10px;
+    padding-left: 8px;
     padding-top: 5px;
     padding-bottom: 6px;
 }
 
 .footer h3 {
-    color: white;
+    color: #E0E1DD;
     font-family: 'LeagueSpartan', serif;
 }
 
