@@ -8,9 +8,9 @@
 
 .titleCard {
     background-color: #0D1B2A;
-    padding: 10px 14px 2px;
+    padding: 7px 14px 2px;
     color: white;
-    font-size: 32px;
+    font-size: 26px;
     margin-bottom: 30px;
     border-radius: 3px;
 }
@@ -61,7 +61,7 @@
 .buttonCard .buttonCardText, .buttonCardTextPlus, .githubIco {
     position: absolute;
     color: white;
-    transition: 0.5s;
+    transition: 0.25s ease-in-out;
 }
 
 .buttonCard .githubIco {
@@ -75,7 +75,7 @@
 
 .buttonCard .buttonCardText {
     font-family: "LeagueSpartanBold", serif;
-    font-size: 30px;
+    font-size: 26px;
     margin-bottom: 45%;
     opacity: 0;
 }
@@ -84,9 +84,10 @@
     top: 40%;
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 26px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-size: 24px;
+    line-height: 125%;
+    padding-left: 10px;
+    padding-right: 10px;
     opacity: 0;
     visibility: hidden;
 }
@@ -170,11 +171,11 @@
     }
 
     .buttonCard .buttonCardTextPlus {
-        top: 40%;
-        font-size: 18px;
+        top: 35%;
+        font-size: 16px;
     }
 
     .buttonCard .buttonCardText {
-        font-size: 22px;
+        font-size: 18px;
     }
 }

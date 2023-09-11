@@ -122,7 +122,7 @@ const projectCards = [
         img1: Pfee1,
         img2: Pfee2,
         title: "SCHOOL PROJECT",
-        info: "Development of an IOT demonstrator using the Matter and Thread protocols on EFR32MG24 boards for the FOGO company.",
+        info: "IOT demonstrator using the Matter and Thread protocols on EFR32MG24 boards for the FOGO company.",
         technoList: [{techno: Cplusplus}, {techno: Pi}, {techno: Docker}, {techno: Thread}, {techno: Matter}, {techno: Git}],
         link: null,
         github: null

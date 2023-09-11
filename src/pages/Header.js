@@ -44,13 +44,12 @@ function Header() {
             <div className='mainTitle'>Vincent Libeskind.</div>
             <div className='secondTitle'>Specialized in embedded and Linux systems.</div>
             <div className='infoMeMain'>
-                <div className='infoMe'>Computer science student at </div>
+                <div className='infoMe'>Computer science student at EPITA Paris Paris, specialization GISTRE. </div>
                 <div className='epitaLogo'>
                     <a href="https://www.epita.fr" target="_blank" >
                         <img src={LogoEpita} alt='icon' />
                     </a>
                 </div>
-                <div className='infoMe'>Paris, specialization GISTRE.</div>
             </div>
         </div>
       </div>
