@@ -6,18 +6,19 @@
 }
 
 .contact .contactTitle {
-    margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     color: rgba(255, 255, 255, 0.7);
     font-family: 'LeagueSpartanBold', serif;
     text-align: center;
-    font-size: 65px;
+    font-size: 50px;
 }
 
 .contact .contactInfo {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
     color: #E0E1DD;
-    font-size: 36px;
+    font-size: 26px;
     text-align: justify;
     text-justify: inter-word;
     line-height: 26pt;
@@ -69,8 +70,12 @@
     filter: brightness(110%);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .contact .contactTitle {
-        font-size: 60px;
+        font-size: 40px;
+    }
+
+    .contact .contactInfo {
+        font-size: 20px;
     }
 }

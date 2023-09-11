@@ -67,7 +67,7 @@
 
 .title .infoMeMain {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -77,8 +77,8 @@
 
 .epitaLogo img {
     cursor: pointer;
-    height: 65px;
-    margin-top: 55px;
+    height: 70px;
+    margin-top: 50px;
     margin-left: 10px;
     margin-right: 10px;
     transition: 0.2s ease-in-out;
@@ -105,19 +105,18 @@
     opacity: 0.4;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
     .title .mainTitle {
         font-size: 50px;
     }
 
     .title .secondTitle {
-        font-size: 40px;
+        font-size: 30px;
+        margin-right: 5%;
     }
 
     .title .infoMe {
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 32px;
+        font-size: 25px;
     }
 
     .firmware, .openSource {
@@ -125,23 +124,22 @@
         height: auto;
         opacity: 0.3;
     }
-
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     .title .infoMeMain {
         padding-top: 30px;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        line-height: 225%;
     }
 
     .epitaLogo img {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        height: 60px;
     }
 
     .title .infoMe {
-        padding-top: 0;
+        padding-right: 5%;
     }
 
     .navbar {
